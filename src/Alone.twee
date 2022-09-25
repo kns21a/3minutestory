@@ -1,0 +1,32 @@
+:: :: StoryData
+{
+    "ifid": "71DB1EBA-3607-4899-AD6C-AE50A3A1CF63",
+    "format": "SugarCube",
+    "format-version": "2.36.1"
+}
+
+:: StoryTitle
+Alone
+
+:: Start
+It's late at night and you're ready to go home. You leave the library and begin walking down the sidewalk.
+
+Walk towards the [[bike rack]] on the side of the library.
+Continue down the sidewalk towards the [[edge of campus]].
+
+:: bike rack
+You reach the bike rack and see your electric scooter still parked where you left it hours before. Upon closer inspection, you realize the battery isn't fully charged.
+ The battery will last you part way but will die eventually, leaving you to drag it the rest of the way home.
+
+ Abandon scooter and [[continue walking]].
+ [[Use scooter]] until battery dies.
+
+:: continue walking
+ You make sure your scooter is locked up, and head towards the [[edge of campus]].
+
+:: Use scooter
+You unlock your scooter and ride it towards the [[edge of campus]].
+
+:: edge of campus 
+You reached the edge of campus and come to a cross road.  
+
