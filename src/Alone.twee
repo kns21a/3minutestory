@@ -15,18 +15,109 @@ Walk towards the [[bike rack]] on the side of the library.
 Continue down the sidewalk towards the [[edge of campus]].
 
 :: bike rack
-You reach the bike rack and see your electric scooter still parked where you left it hours before. Upon closer inspection, you realize the battery isn't fully charged.
- The battery will last you part way but will die eventually, leaving you to drag it the rest of the way home.
+You arrive at the bike rack and discover your scooter still locked up where you left it hours prior.
 
- Abandon scooter and [[continue walking]].
- [[Use scooter]] until battery dies.
+Upon closer inspection, you realize the battery is almost dead.
 
-:: continue walking
- You make sure your scooter is locked up, and head towards the [[edge of campus]].
+Battery: 3/5
 
-:: Use scooter
-You unlock your scooter and ride it towards the [[edge of campus]].
+[[Abandon scooter]]
+
+[[Take scooter]]
+
+:: Abandon scooter
+ You decide to leave the scooter behind rather than risk it dying during the trip. 
+ You ensure the lock is still in place and make your way towards the [[edge of campus]].
+
+
+:: Take scooter
+Despite its dying battery, you decide to use the scooter in hopes of getting home faster. You proceed to unlock the scooter and ride it towards the [[edge of campus]].
+
+Battery: 3/6
 
 :: edge of campus 
-You reached the edge of campus and come to a cross road.  
+You arrive at the edge of campus and come across a divided path. 
+
+To the east, you see a [[secluded path]] cutting through a residential area near campus. 
+Upon first glance, you don't notice anyone present.
+
+To the north, you see a [[well-lit path]] along the main street. 
+You can clearly see people walking along the sidewalk.
+
+:: secluded path
+
+You make your way towards the secluded path. 
+
+As you walk, you bask in the peacefulness of the neighborhood. The cool air of the fall night tempts you to slow down.
+
+[[Slow down]]
+
+[[keep pace]]
+
+:: slow down
+You decide to slow your pace and relish in the quiet darkness. 
+Your peaceful walk is suddenly interrupted by a rustling noise to the right of you.
+
+[[Check the source of the noise]]
+
+[[Run]]
+
+[[Slowly walk away]]
+
+:: check for the source of the noise
+You look around and notice the noise is coming from a nearby bush.
+As you approach the bush a large mass leaps out and begins growling at you.
+
+[[Run]]
+
+[[Stand your ground]]
+
+:: Stand your ground
+Against your better judgment, you decide to stand your ground against the unknown creature approaching you.
+you brace yourself for the possible attack, when suddenly, you hear a car approaching your location.
+
+The creature is spooked by the noise and quickly scurries away. 
+
+Still tense from fear, you quickly gather your composure and head towards the [[edge of the neighborhood]].
+
+:: Run
+You quickly sprint away, leaving little time to register what you heard.
+In the corner of your eye you see a large mass quickly approaching you.
+At the sight of this, you panic and trip, injuring your ankle.
+
+[[Ending 1]]
+
+:: Ending 1
+As you lay there petrified with fear, unable to move, the shadowy mass catches up to you. 
+The mass lunges onto you, revealing its teeth before sinking them into your throat.
+In this moment, all you are left with is the  intense pain and fear of your inevitable demise.
+
+:: slowly walk away
+Not wanting to find the source of the noise, you slowly back away until you are a safe distance away to regather your composure.
+Once you calmed down, you proceed towards [[the edge of the neighborhood]].
+
+:: keep pace
+
+    You shake off the urge to slow down and proceed forward as normal.
+
+After several minutes, you arrive at the [[edge of the neighborhood]].
+
+:: edge of the neighborhood 
+As you exit the neighborhood, you are welcomed with warm lights overhead.
+You take in the surroundings and realize you are on an unfamiliar street. 
+Thinking back you must have missed a turn within the neighborhood. 
+
+[[turn around]]
+
+[[search for a new path]]
+
+:: turn around
+Not wanting to risk getting lost, you turn around and reenter the neighborhood.
+As you retrace your path you come across a divide path.
+
+:: search for a new path
+Not wanting to waste anymore time, you grab your phone and look at the map.
+According to your phone, if you head north you will arrive at a relatively familiar area.
+
+:: well-lit path
 
