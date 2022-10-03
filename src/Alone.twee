@@ -67,7 +67,7 @@ Your peaceful walk is suddenly interrupted by a rustling noise to the right of y
 
 [[Slowly walk away]]
 
-:: check for the source of the noise
+:: Check the source of the noise
 You look around and notice the noise is coming from a nearby bush.
 As you approach the bush a large mass leaps out and begins growling at you.
 
@@ -95,7 +95,7 @@ As you lay there petrified with fear, unable to move, the shadowy mass catches u
 The mass lunges onto you, revealing its teeth before sinking them into your throat.
 In this moment, all you are left with is the  intense pain and fear of your inevitable demise.
 
-:: slowly walk away
+:: Slowly walk away
 Not wanting to find the source of the noise, you slowly back away until you are a safe distance away to regather your composure.
 Once you calmed down, you proceed towards [[the edge of the neighborhood]].
 
@@ -124,3 +124,29 @@ According to your phone, if you head north you will arrive at a relatively famil
 
 :: well-lit path
 
+You make your way towards the well-lit path.
+As you walk underneath the dull street lights, you take in the sights around you.
+The sight of fellow college students walking amongst the streets gives you a sense of comfort and you begin letting your guard down. 
+You reach into your bag and pull out your phone and headphones.
+
+[[Put on headphones]]
+
+[[Put away headphones]]
+
+:: Put on headphones
+You decide to wear your headphones and listen to music to pass the time.
+As you reach a major intercession and begin crossing, you fail to hear a car approching and are struck.
+
+[[Ending 2]]
+
+:: Ending 2
+Unsure of what happened, you slowly fade in and out of consciousness.
+You hear what you assume to be sirens as you fade out for the last time.
+
+
+:: Put away headphones
+You decide that it's best not to wear headphones and place them back into your bag.
+You continue down the street fully aware of the dangers surrounding you.
+You eventually arrive at a major intersection and safely make your way across.
+
+Once across, you head towards a [[sketchy gas station]]
