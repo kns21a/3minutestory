@@ -9,10 +9,13 @@
 Alone
 
 :: Start
-It's late at night and you're ready to go home. You leave the library and begin walking down the sidewalk.
+It's late at night and you're ready to head home to sleep. 
+As you exit the university's library, you feel a sudden chill run down your spine from the frigid fall air. 
+You had failed to dress for the weather so you are eager to get home. You quickly descend the library's stairs and proceed down the sidewalk towards the edge of campus.
 
-Walk towards the [[bike rack]] on the side of the library.
-Continue down the sidewalk towards the [[edge of campus]].
+At the last second, you recall that you had parked your scooter at the library's [[bike rack]] and turn around.
+
+You proceed to walk towards the [[edge of campus]].
 
 :: bike rack
 You arrive at the bike rack and discover your scooter still locked up where you left it hours prior.
@@ -50,7 +53,7 @@ You make your way towards the secluded path.
 
 As you walk, you bask in the peacefulness of the neighborhood. The cool air of the fall night tempts you to slow down.
 
-[[Slow down]]
+[[slow down]]
 
 [[keep pace]]
 
