@@ -12,79 +12,74 @@
 Alone
 
 :: Start
-It's late at night and you're ready to head home to sleep.
+<<fadein 1s>>It's late at night and you're ready to head home to sleep.<</fadein>>
+<<fadein 1s 2s>>As you exit the university's library, you feel a sudden chill run down your spine from the frigid fall air.<</fadein>>
+<<fadein 1s 4s>>You had failed to dress for the weather so you are eager to get home.<</fadein>>
+<<fadein 1s 6s>>You quickly descend the library's stairs and proceed down the sidewalk towards the edge of campus.<</fadein>>
+
+<<fadein 1s 7s>>At the last second, you recall that you had parked your bike at the library's [[bike rack]] and turned around.<</fadein>>
  
-As you exit the university's library, you feel a sudden chill run down your spine from the frigid fall air.
- 
-You had failed to dress for the weather so you are eager to get home.
- 
-You quickly descend the library's stairs and proceed down the sidewalk towards the edge of campus.
- 
-At the last second, you recall that you had parked your bike at the library's [[bike rack]] and turned around.
- 
-You proceed to walk towards the [[edge of campus]].
+<<fadein 1s 7s>>You proceed to walk towards the [[edge of campus]].<</fadein>>
  
 :: bike rack
-You arrive at the bike rack and discover your bike still locked up where you left it hours prior.
+<<fadein 1s>>You arrive at the bike rack and discover your bike still locked up where you left it hours prior.<</fadein>>
+<<fadein 1s 2s>>Upon closer inspection, you realize the battery is almost dead.<</fadein>>
  
-Upon closer inspection, you realize the battery is almost dead.
+<<fadein 1s 3s>>[[Abandon bike]]<</fadein>>
  
- 
- 
-[[Abandon bike]]
- 
-[[Take bike]]
+<<fadein 1s 3s>>[[Take bike]]<</fadein>>
  
 :: Abandon bike
- You decide to leave the bike behind rather than risk it dying during the trip.
+ <<fadein 1s>>You decide to leave the bike behind rather than risk it dying during the trip.<</fadein>>
  
- You ensure the lock is still in place and make your way towards the [[edge of campus]].
+ <<fadein 1s 2s>>You ensure the lock is still in place and make your way towards the [[edge of campus]].<</fadein>>
  
  
 :: Take bike
 <<set $hasbike to true>>
-Despite its dying battery, you decide to use the bike in hopes of getting home faster. You proceed to unlock the bike and ride it towards the [[edge of campus]].
+<<fadein 1s>>Despite its dying battery, you decide to use the bike in hopes of getting home faster.<</fadein>>
+<<fadein 1s 2s>>You proceed to unlock the bike and ride it towards the [[edge of campus]].<</fadein>>
  
  
 :: edge of campus
-You arrive at the edge of campus and come across a divided path.
+<<fadein 1s>>You arrive at the edge of campus and come across a divided path.<</fadein>>
  
-To the east, you see a [[secluded path]] cutting through a residential area near campus.
-Upon first glance, you don't notice anyone present.
+<<fadein 1s 2s>>To the east, you see a [[secluded path]] cutting through a residential area near campus.<</fadein>>
+<<fadein 1s 3s>>Upon first glance, you don't notice anyone present.<</fadein>>
  
-To the north, you see a [[well-lit path]] along the main street.
-You can clearly see people walking along the sidewalk.
+<<fadein 1s 4s>>To the north, you see a [[well-lit path]] along the main street.<</fadein>>
+<<fadein 1s 5s>>You can clearly see people walking along the sidewalk.<</fadein>>
  
 :: secluded path
  
-You make your way towards the secluded path.
+<<fadein 1s>>You make your way towards the secluded path.<</fadein>>
  
-As you walk, you bask in the peacefulness of the neighborhood. The cool air of the fall night tempts you to slow down.
+<<fadein 1s 2s>>As you walk, you bask in the peacefulness of the neighborhood. The cool air of the fall night tempts you to slow down.<</fadein>>
 <<if $hasbike>>
-[[Keep pace]]
-[[Turn off bike]]
+<<fadein 1s 4s>>[[Keep pace]]<</fadein>>
+<<fadein 1s 4s>>[[Turn off bike]]<</fadein>>
 <<else>>
-[[Keep pace]]
-[[Slow down]]
+<<fadein 1s 4s>>[[Keep pace]]<</fadein>>
+<<fadein 1s 4s>>[[Slow down]]<</fadein>>
  <</if>>
  
 :: Turn off bike
-You slow down and turn off your bike.
+<<fadein 1s>>You slow down and turn off your bike.<</fadein>>
  
-You decide to walk and enjoy the cool breeze for a while, but as you make your way through the neighborhood, you are suddenly startled by a loud growling noise.
+<<fadein 1s 2s>>You decide to walk and enjoy the cool breeze for a while, but as you make your way through the neighborhood, you are suddenly startled by a loud growling noise.<</fadein>>
  
-[[Investigate]]
-[[Get on bike]]
+<<fadein 1s 4s>>[[Investigate]]<</fadein>>
+<<fadein 1s 4s>>[[Get on bike]]<</fadein>>
  
 :: Investigate
-You turn on your bike's headlight to search the area.
+<<fadein 1s>>You turn on your bike's headlight to search the area.<</fadein>>
  
-After several seconds of looking around, you notice the noise is coming from a nearby bush.
+<<fadein 1s 2s>>After several seconds of looking around, you notice the noise is coming from a nearby bush.<</fadein>>
  
-As you approach the bush a large creature leaps out and begins growling at you.
+<<fadein 1s 4s>>As you approach the bush a large creature leaps out and begins growling at you.<</fadein>>
  
-[[Run]]
-[[Confront creature]]
+<<fadein 1s 6s>>[[Run]]<</fadein>>
+<<fadein 1s 6s>>[[Confront creature]]<</fadein>>
  
 :: Confront creature
 <<fadein 1s>>As the creature gradually approaches you, you quickly place your bike frame between it and yourself. <</fadein>>
@@ -102,508 +97,517 @@ As you approach the bush a large creature leaps out and begins growling at you.
  
 :: Toss bike
 <<set $havebike to false>>
-You toss your bike towards the creature, effectively pinning it to the ground.
+<<fadein 1s>>You toss your bike towards the creature, effectively pinning it to the ground.<</fadein>>
  
-Without hesitation, you begin running down the street towards the [[edge of the neighborhood]].
+<<fadein 1s 2s>>Without hesitation, you begin running down the street towards the [[edge of the neighborhood]].<</fadein>>
  
 :: Ride bike
 <<set $hasblood to true>>
-You quickly hop on to the bike and twist the throttle.
+<<fadein 1s>>You quickly hop on to the bike and twist the throttle.<</fadein>>
  
-The creature, seeing that you've let your guard down, immediately latches onto your leg with its jagged teeth.
+<<fadein 1s 2s>>The creature, seeing that you've let your guard down, immediately latches onto your leg with its jagged teeth.<</fadein>>
  
-Despite the intense pain, you recklessly speed through the street hoping to shake off the creature from your mangled leg.
+<<fadein 1s 4s>>Despite the intense pain, you recklessly speed through the street hoping to shake off the creature from your mangled leg.<</fadein>>
  
-With the creature still attached, you rush into an adjacent[[residential area]] where people can be seen in hopes of receiving help.
+<<fadein 1s 6s>>With the creature still attached, you rush into an adjacent[[residential area]] where people can be seen in hopes of receiving help.<</fadein>>
  
 :: Flash headlight
-In a panic, you flash the creature with the headlight revealing its grotesque, pail white form.
+<<fadein 1s>>In a panic, you flash the creature with the headlight revealing its grotesque, pail white form.<</fadein>>
  
-Petrified by its appearance, you fail to react in time to escape.
+<<fadein 1s 2s>>Petrified by its appearance, you fail to react in time to escape.<</fadein>>
  
-With the creature now approaching you, you drop the bike and begin carelessly sprinting off into the distance.
+<<fadein 1s 4s>>With the creature now approaching you, you drop the bike and begin carelessly sprinting off into the distance.<</fadein>>
  
-Shortly after, you trip on uneven ground, painfully twisting your ankle.
+<<fadein 1s 6s>>Shortly after, you trip on uneven ground, painfully twisting your ankle.<</fadein>>
  
-[[Ending 1]]
+<<fadein 1s 8s>>[[Ending 1]]<</fadein>>
  
 :: Do nothing
  
-Too petrified to react, you fail to take any action against the creature in front of you.
+<<fadein 1s>>Too petrified to react, you fail to take any action against the creature in front of you.<</fadein>>
  
-The creature lunges towards you, effectively pinning you into the ground.
+<<fadein 1s 2s>>The creature lunges towards you, effectively pinning you into the ground.<</fadein>>
  
-After a short struggle, despite the creature overpowering you, you manage to squeeze free from its grasp; however, your freedom is short-lived.
+<<fadein 1s 4s>>After a short struggle, despite the creature overpowering you, you manage to squeeze free from its grasp; however, your freedom is short-lived.<</fadein>>
  
-During your escape you failed to see the uneven sidewalk and tripped, severely twisting your ankle.
+<<fadein 1s 6s>>During your escape you failed to see the uneven sidewalk and tripped, severely twisting your ankle.<</fadein>>
  
-[[Ending 1]]
+<<fadein 1s 8s>>[[Ending 1]]<</fadein>>
  
 :: Get on bike
  
-You quickly mount your bike and turn on the power.
+<<fadein 1s>>You quickly mount your bike and turn on the power.<</fadein>>
  
-As you begin twisting the throttle you hear the growling intensify.
+<<fadein 1s 2s>>As you begin twisting the throttle you hear the growling intensify.<</fadein>>
  
-Not wanting to wait around to find out the identity of the source, you quickly speed off towards the [[edge of the neighborhood]].
+<<fadein 1s 3s>>Not wanting to wait around to find out the identity of the source, you quickly speed off towards the [[edge of the neighborhood]].<</fadein>>
  
 :: Slow down
-You decide to slow your pace and relish in the quiet darkness.
+<<fadein 1s>>You decide to slow your pace and relish in the quiet darkness.<</fadein>>
  
-Your peaceful walk is suddenly interrupted by a rustling noise to the right of you.
+<<fadein 1s 2s>>Your peaceful walk is suddenly interrupted by a rustling noise to the right of you.<</fadein>>
  
-[[Check the source of the noise]]
-[[Run]]
-[[Slowly walk away]]
+<<fadein 1s 4s>>[[Check the source of the noise]]<</fadein>>
+<<fadein 1s 4s>>[[Run]]<</fadein>>
+<<fadein 1s 4s>>[[Slowly walk away]]<</fadein>>
  
 :: Check the source of the noise
-You look around and notice the noise is coming from a nearby bush.
+<<fadein 1s>>You look around and notice the noise is coming from a nearby bush.<</fadein>>
  
-As you approach the bush a large creature leaps out and begins growling at you.
+<<fadein 1s 2s>>As you approach the bush a large creature leaps out and begins growling at you.<</fadein>>
  
-[[Run]]
+<<fadein 1s 4s>>[[Run]]<</fadein>>
  
-[[Stand your ground]]
+<<fadein 1s 4s>>[[Stand your ground]]<</fadein>>
  
 :: Stand your ground
-Against your better judgment, you decide to stand your ground against the unknown creature approaching you.
+<<fadein 1s>>Against your better judgment, you decide to stand your ground against the unknown creature approaching you.<</fadein>>
  
-You brace yourself for the possible attack, when suddenly, you hear a car approaching your location.
+<<fadein 1s 2s>>You brace yourself for the possible attack, when suddenly, you hear a car approaching your location.<</fadein>>
  
-The creature is spooked by the noise and quickly scurries away.
+<<fadein 1s 4s>>The creature is spooked by the noise and quickly scurries away.<</fadein>>
  
-Still tense from fear, you quickly gather your composure and head towards the [[edge of the neighborhood]].
+<<fadein 1s 6s>>Still tense from fear, you quickly gather your composure and head towards the [[edge of the neighborhood]].<</fadein>>
  
 :: Run
-You quickly sprint away, leaving little time to register what you heard.
+<<fadein 1s>>You quickly sprint away, leaving little time to register what you heard.<</fadein>>
  
-In the corner of your eye you see a large mass quickly approaching you.
+<<fadein 1s 2s>>In the corner of your eye you see a large mass quickly approaching you.<</fadein>>
  
-At the sight of this, you panic and trip, injuring your ankle.
+<<fadein 1s 4s>>At the sight of this, you panic and trip, injuring your ankle.<</fadein>>
  
-[[Ending 1]]
+<<fadein 1s 6s>>[[Ending 1]]<</fadein>>
  
 :: Ending 1
-As you lay there petrified with fear, unable to move, the creature catches up to you.
+<<fadein 1s>>As you lay there petrified with fear, unable to move, the creature catches up to you.<</fadein>>
  
-It lunges onto you, revealing its teeth before sinking them into your throat.
+<<fadein 1s 2s>>It lunges onto you, revealing its teeth before sinking them into your throat.<</fadein>>
  
-In this moment, all you are left with is the  intense pain and fear of your inevitable demise.
+<<fadein 1s 4s>>In this moment, all you are left with is the  intense pain and fear of your inevitable demise.<</fadein>>
  
-[[Start]]
+<<fadein 1s 6s>>[[Start]]<</fadein>>
  
 :: Slowly walk away
-Not wanting to find the source of the noise, you slowly back away until you are a safe distance away to regather your composure.
+<<fadein 1s>>Not wanting to find the source of the noise, you slowly back away until you are a safe distance away to regather your composure.<</fadein>>
  
-Once you calmed down, you proceed towards [[edge of the neighborhood]].
+<<fadein 1s 2s>>Once you calmed down, you proceed towards [[edge of the neighborhood]].<</fadein>>
  
 :: Keep pace
  
-You shake off the urge to slow down and proceed forward as normal.
+<<fadein 1s>>You shake off the urge to slow down and proceed forward as normal.<</fadein>>
  
-After several minutes, you arrive at the [[edge of the neighborhood]].
+<<fadein 1s 2s>>After several minutes, you arrive at the [[edge of the neighborhood]].<</fadein>>
  
 :: edge of the neighborhood
 <<if $hasbike>>
 <<set $hasbike to false>>
-As you reach the edge of the neighborhood, you heave a sigh of relief.
+<<fadein 1s>>As you reach the edge of the neighborhood, you heave a sigh of relief.<</fadein>>
  
-Your bike has safely carried you to the edge of the neighborhood; however it is dead now.
+<<fadein 1s 2s>>Your bike has safely carried you to the edge of the neighborhood; however it is dead now.<</fadein>>
  
-Not wanting to linger any longer, you lock the bike up on a nearby stop sign, and proceed to [[search for a new path]] by foot.
+<<fadein 1s 4s>>Not wanting to linger any longer, you lock the bike up on a nearby stop sign, and proceed to [[search for a new path]] by foot.<</fadein>>
 <<else>>
-As you exit the neighborhood, you are welcomed with warm lights overhead.
+<<fadein 1s 2s>>As you exit the neighborhood, you are welcomed with warm lights overhead.<</fadein>>
  
-You take in the surroundings and realize you are on an unfamiliar street.
+<<fadein 1s 4s>>You take in the surroundings and realize you are on an unfamiliar street.<</fadein>>
+
+<<fadein 1s 6s>>Thinking back you must have missed a turn within the neighborhood.<</fadein>>
  
-Thinking back you must have missed a turn within the neighborhood.
  
- 
-Not wanting to re-enter the neighborhood, you [[search for a new path]].
+<<fadein 1s 8s>>Not wanting to re-enter the neighborhood, you [[search for a new path]].<</fadein>>
  
  <</if>>
-\
+
  
 :: search for a new path
  
-After several minutes of searching, you take notice of two points within your view.
+<<fadein 1s>>After several minutes of searching, you take notice of two points within your view.<</fadein>>
  
-The first, towards the north, leads to what appears to be a [[busy intersection]].
+<<fadein 1s 2s>>The first, towards the north, leads to what appears to be a [[busy intersection]].<</fadein>>
  
-The second, towards the east, leads to what seems to be another [[residential area]].
+<<fadein 1s 2s>>The second, towards the east, leads to what seems to be another [[residential area]].<</fadein>>
  
 :: busy intersection
 <<if $hasbike>>
-When you arrive at the intersection, you are disappointed to find the path you needed to take blocked-off with sidewalk and road closure signs.
+<<fadein 1s>>When you arrive at the intersection, you are disappointed to find the path you needed to take blocked-off with sidewalk and road closure signs.<</fadein>>
  
-You are unable to transverse the uneven ground with your bike; however, you do not wish to take another alternate route when your destination is near.
+<<fadein 1s 2s>>You are unable to transverse the uneven ground with your bike; however, you do not wish to take another alternate route when your destination is near.<</fadein>>
  
- [[Leave bike behind]]
+ <<fadein 1s 4s>>[[Leave bike behind]]<</fadein>>
  
 <<else>>
-When you arrive at the intersection, you are disappointed to find the path you needed to take blocked-off with sidewalk and road closure signs.
+<<fadein 1s 2s>>When you arrive at the intersection, you are disappointed to find the path you needed to take blocked-off with sidewalk and road closure signs.<</fadein>>
  
-This explains the busyness of the intersection; however you do not wish to take another alternate route when your destination is near.
+<<fadein 1s 4s>>This explains the busyness of the intersection; however you do not wish to take another alternate route when your destination is near.<</fadein>>
  
-[[Enter closed road]]
- 
-Backtrack to the [[residential area]].
+<<fadein 1s 6s>>[[Enter closed road]]<</fadein>>
+<<fadein 1s 6s>>Backtrack to the [[residential area]].<</fadein>>
 <</if>>
 :: Leave bike
-You decide to lock your bike up on a nearby tree in hopes of finding it later.
+<<fadein 1s>>You decide to lock your bike up on a nearby tree in hopes of finding it later.<</fadein>>
  
-You [[Enter closed road]]
+<<fadein 1s 2s>>You [[Enter closed road]]<</fadein>>
  
 :: Enter closed road
-You decide to enter the closed road, despite the warning signs.
+<<fadein 1s>>You decide to enter the closed road, despite the warning signs.<</fadein>>
  
-As you navigate the torn asphalt and concrete, you slip and cut your arm.
+<<fadein 1s 2s>>As you navigate the torn asphalt and concrete, you slip and cut your arm.<</fadein>>
  
-Not concerned about the injury, you proceed towards the [[end of the street]].
+<<fadein 1s 4s>>Not concerned about the injury, you proceed towards the [[end of the street]].<</fadein>>
  
 :: end of the street
-As you approach the end of the street you hear what seems to be footsteps in the asphalt immediately behind you.
+<<fadein 1s>>As you approach the end of the street you hear what seems to be footsteps on the asphalt immediately behind you.<</fadein>>
  
-Goosebumps creep onto your skin as the footsteps approach ever so closer.
+<<fadein 1s 2s>>Goosebumps creep onto your skin as the footsteps approach ever so closer.<</fadein>>
  
-[[Face the noise]]
+<<fadein 1s 4s>>[[Face the noise]]<</fadein>>
 
-[[Run away]]
+<<fadein 1s 4s>>[[Run away]]<</fadein>>
 
 :: Face the noise
- You decide to turn around, believing that you can scare the would-be stalker away; however, the moment you made eye contact with the individual, your heart dropped.
+ <<fadein 1s>>You decide to turn around, believing that you can scare the would-be stalker away; however, the moment you made eye contact with the individual, your heart dropped.<</fadein>>
  
- The figure that stood before you was clad in all black, with a glistening metal blade at their hip.
+<<fadein 1s 2s>> The figure that stood before you was clad in all black, with a glistening metal blade at their hip.<</fadein>>
  
- Wanting to escape an inevitable death, you run off, only to be grabbed by the neck of your shirt and dragged away.
+<<fadein 1s 4s>> Wanting to escape an inevitable death, you run off, only to be grabbed by the neck of your shirt and dragged away.<</fadein>>
  
- [[Ending 4]]  
+ <<fadein 1s 6s>>[[Ending 4]]  <</fadein>>
  
 :: Ending 4
-Your body would be found the following day amongst the rubble of the construction site with lacerations and blood loss as the apparent cause of death.
- [[Start]]
+<<fadein 1s>>Your body would be found the following day amongst the rubble of the construction site with lacerations and blood loss as the apparent cause of death.<</fadein>>
+ <<fadein 1s 2s>>[[Start]]<</fadein>>
  
 :: Run away
-Not willing to take a chance with your life, you immediately run away.
+<<fadein 1s>>Not willing to take a chance with your life, you immediately run away.<</fadein>>
  
-After several minutes of laborious running, you arrive within [[your neighborhood]].
+<<fadein 1s 2s>>After several minutes of laborious running, you arrive within [[your neighborhood]].<</fadein>>
  
 :: your neighborhood
  
-Exhausted and out of breath, you stumble onto even ground within your quiet neighborhood.
+<<fadein 1s>>Exhausted and out of breath, you stumble onto even ground within your quiet neighborhood.<</fadein>>
  
-In the distance you see your home and hurriedly approach it.
+<<fadein 1s 2s>>In the distance you see your home and hurriedly approach it.<</fadein>>
  
-Still reeling from the events of the night, your hand shakes as you search for your keys.
+<<fadein 1s 4s>>Still reeling from the events of the night, your hand shakes as you search for your keys.<</fadein>>
  
-After several painful minutes that felt as though they were an eternity, you finally manage to enter your home safely.
+<<fadein 1s 6s>>After several painful minutes that felt as though they were an eternity, you finally manage to enter your home safely.<</fadein>>
 <<if $hasblood>>
-[[Ending 5]]
+<<fadein 1s 8s>>[[Ending 5]]<</fadein>>
 <<else>>
-[[Ending 6]]
+<<fadein 1s 8s>>[[Ending 6]]<</fadein>>
 <</if>>
  
 :: Ending 5
-Safely within the walls of your home, you settle in for the night and begin treating your wounds.
+<<fadein 1s>>Safely within the walls of your home, you settle in for the night and begin treating your wounds.<</fadein>>
  
-You just finish washing and wrapping your injuries, when you realize you trailed blood throughout your home.
+<<fadein 1s 2s>>You just finish washing and wrapping your injuries, when you realize you trailed blood throughout your home.<</fadein>>
  
-As you begin collecting cleaning supplies to wipe up the residual blood, you hear a knock at your door.
+<<fadein 1s 4s>>As you begin collecting cleaning supplies to wipe up the residual blood, you hear a knock at your door.<</fadein>>
  
-You go still with fear, unable to fathom who would be visiting at such an hour.
+<<fadein 1s 6s>>You go still with fear, unable to fathom who would be visiting at such an hour.<</fadein>>
  
-It was then you realize your mistake.
+<<fadein 1s 8s>>It was then you realize your mistake.<</fadein>>
  
-You had led them here with your blood.
+<<fadein 1s 10s>>You had led them here with your blood.<</fadein>>
  
-[[Start]]
+<<fadein 1s 12s>>[[Start]]<</fadein>>
  
 :: Ending 6
-You gasped as you sat up in bed, with cold sweat beating down your forehead.
+<<fadein 1s>>You gasped as you sit up in bed, with cold sweat beating down your forehead.<</fadein>>
  
-Your heart was racing.
+<<fadein 1s 2s>>Your heart is racing.<</fadein>>
  
-Your breath was uneven.
+<<fadein 1s 4s>>Your breath is uneven.<</fadein>>
  
-Your mind was foggy.
+<<fadein 1s 6s>>Your mind is foggy.<</fadein>>
  
-Nothing had been real.
+<<fadein 1s 8s>>Nothing had been real.<</fadein>>
  
-[[Start]]
+<<fadein 1s 10s>>[[Start]]<</fadein>>
  
 :: residential area
-<<if $hasbike>>
-As you approach the residential area, you notice an abundant amount of vagrants walking across the empty streets and along the sidewalks.
+<<if $hasbike>>v
+<<fadein 1s>>As you approach the residential area, you notice an abundant amount of vagrants walking across the empty streets and along the sidewalks.<</fadein>>
  
-In desperation you speed towards a large group on the sidewalk as you drag the creature alongside you.
+<<fadein 1s 2s>>In desperation you speed towards a large group on the sidewalk as you drag the creature alongside you.<</fadein>>
  
-[[Crash the bike]]
+<<fadein 1s 4s>>[[Crash the bike]]<</fadein>>
  
-[[Avoid crashing]]
+<<fadein 1s 4s>>[[Avoid crashing]]<</fadein>>
 <<else>>
-You decide to cut through another residential area to avoid busy foot and car traffic at the intersection.
+<<fadein 1s>>You decide to cut through another residential area to avoid busy foot and car traffic at the intersection.<</fadein>>
  
-Once in the neighborhood, you notice an abundant amount of vagrants walking across the empty streets and along the sidewalks.
+<<fadein 1s 2s>>Once in the neighborhood, you notice an abundant amount of vagrants walking across the empty streets and along the sidewalks.<</fadein>>
  
-[[Walk along the sidewalk]]
+<<fadein 1s 4s>>[[Walk along the sidewalk]]<</fadein>>
  
-[[Walk in the street]]
+<<fadein 1s 4s>>[[Walk in the street]]<</fadein>>
  <</if>>
  
 :: Crash the bike
-With no regard for your own well-being, you crash full speed into the crowd of people.
+<<fadein 1s>>With no regard for your own well-being, you crash full speed into the crowd of people.<</fadein>>
  
-The street soon ensued into chaos as the creature, now dislodged from your leg, begins attacking nearby on-lookers.
+<<fadein 1s 2s>>The street soon ensued into chaos as the creature, now dislodged from your leg, begins attacking nearby on-lookers.<</fadein>>
  
-Taking advantage of the situation, you attend to your mangled leg and slowly limp towards your crashed bike with your belongings.
+<<fadein 1s 4s>>Taking advantage of the situation, you attend to your mangled leg and slowly limp towards your crashed bike with your belongings.<</fadein>>
  
-Not knowing if the creature would return to finish you off, you force your body back onto the bike and proceed towards the [[graveyard's entrance]] at the end of the residential block.
+<<fadein 1s 6s>>Not knowing if the creature would return to finish you off, you force your body back onto the bike and proceed towards the [[graveyard's entrance]] at the end of the residential block.<</fadein>>
  
 :: Graveyard's entrance
 <<if $hasbike>>
-Bloodied and exhausted you arrive at the graveyard's entrance.
+<<fadein 1s>>Bloodied and exhausted you arrive at the graveyard's entrance.<</fadein>>
  
-Not knowing where to go from here, you opt to stop and rest; however, you are unsure whether the creature is truly gone from your presence.
+<<fadein 1s 2s>>Not knowing where to go from here, you opt to stop and rest; however, you are unsure whether the creature is truly gone from your presence.<</fadein>>
  
-[[Stay and rest]]
+<<fadein 1s 4s>>[[Stay and rest]]<</fadein>>
  
-[[Push forward into the graveyard]]
+<<fadein 1s 4s>>[[Push forward into the graveyard]]<</fadein>>
  
 <<else>>
  
-Exhausted, you arrive at the graveyard's entrance.
+<<fadein 1s>>Exhausted, you arrive at the graveyard's entrance.<</fadein>>
  
-Not knowing where to go from here, you want to stop moving; however, you are unsure whether the group of people is following you.
+<<fadein 1s 2s>>Not knowing where to go from here, you want to stop moving; however, you are unsure whether the group of people is following you.<</fadein>>
  
-You decide to cut through to the graveyard to reach a [[familiar street]].
+<<fadein 1s 4s>>You decide to cut through to the graveyard to reach a [[familiar street]].<</fadein>>
 <</if>>
  
 :: Stay and rest
-Deciding it's best to allow your body to rest, before proceeding home, you sit down and hide behind a large tombstone.
+<<fadein 1s>>Deciding it's best to allow your body to rest, before proceeding home, you sit down and hide behind a large tombstone.<</fadein>>
  
-Unable to cope with the excessive blood loss, your body enters a state of shock, causing you to pass out.
+<<fadein 1s 2s>>Unable to cope with the excessive blood loss, your body enters a state of shock, causing you to pass out.<</fadein>>
  
-[[Ending 3]]
+<<fadein 1s 4s>>[[Ending 3]]<</fadein>>
  
  
 :: Push forward into the graveyard
  
- Choosing safety amongst the tombstones, you proceed into the graveyard.
+<<fadein 1s>> Choosing safety amongst the tombstones, you proceed into the graveyard.<</fadein>>
  
- Once inside, you feel an eerie coldness envelope your body as you ride through the winding paths flanked by numerous tombs.
+ <<fadein 1s 2s>>Once inside, you feel an eerie coldness envelope your body as you ride through the winding paths flanked by numerous tombs.<</fadein>>
  
-Eventually you arrive at a [[large tree]] in the center of the cemetery.
+<<fadein 1s 4s>>Eventually you arrive at a [[large tree]] in the center of the cemetery.<</fadein>>
  
 :: Large tree
  
-At the large tree, you come across a forked path.
+<<fadein 1s>>At the large tree, you come across a forked path.<</fadein>>
  
-To the left, appears to be a path leading towards a nearby [[fountain]] at the edge of the graveyard.  
+<<fadein 1s 2s>>To the left, appears to be a path leading towards a nearby [[fountain]] at the edge of the graveyard. <</fadein>> 
  
-To the right, a dimly-lit path, leading towards a [[familiar street]].
+<<fadein 1s 2s>>To the right, a dimly-lit path, leading towards a [[familiar street]].<</fadein>>
  
 :: fountain
 <<set $hasblood to false>>
-Noticing the bloodied state of your appearance, you decide to swing by the fountain to wash off any residual blood.
+<<fadein 1s>>Noticing the bloodied state of your appearance, you decide to swing by the fountain to wash off any residual blood.<</fadein>>
  
-Once there, you are welcomed by a calm source of water.
+<<fadein 1s 2s>>Once there, you are welcomed by a calm source of water.<</fadein>>
  
-You proceed to clean yourself off, removing any source of blood from your body, when you begin to hear loud growling in the distance.
+<<fadein 1s 4s>>You proceed to clean yourself off, removing any source of blood from your body, when you begin to hear loud growling in the distance.<</fadein>>
  
-Not forgetting the creature from earlier, you freeze, afraid to attract attention with the water splashing.
+<<fadein 1s 6s>>Not forgetting the creature from earlier, you freeze, afraid to attract attention with the water splashing.<</fadein>>
  
-[[Hide in the water]]
+<<fadein 1s 8s>>[[Hide in the water]]<</fadein>>
  
-[[Hide behind a tombstone]]
+<<fadein 1s 8s>>[[Hide behind a tombstone]]<</fadein>>
  
 :: Hide in the water
-You slowly lowered your body into the fountain's water, leaving only the top of your head visible.
+<<fadein 1s>>You slowly lower your body into the fountain's water, leaving only the top of your head visible.<</fadein>>
  
-As you sat in their wading in the water, you waited anxiously for the creature to make an appearance.
+<<fadein 1s 2s>>As you sat in their wading in the water, you waited anxiously for the creature to make an appearance.<</fadein>>
  
-After several minutes, the growling stopped, with the creature never reappearing within your presence.
+<<fadein 1s 4s>>After several minutes, the growling stopped, with the creature never reappearing within your presence.<</fadein>>
  
-Assuming it to be safe, you remove yourself from the water and quickly ring out your clothes before proceeding towards a [[familiar street]]
+<<fadein 1s 6s>>Assuming it to be safe, you remove yourself from the water and quickly ring out your clothes before proceeding towards a [[familiar street]]<</fadein>>
+
 :: Hide behind a tombstone
- 
+ <<fadein 1s>>You quickly remove yourself from the fountain and hide behind a nearby tomb stone.<</fadein>>
+
+ <<fadein 1s 2s>>As you nervously wait, the growling from the creature gradually increases in volume.<</fadein>>
+
+ <<fadein 1s 4s>>Several minutes pass and the growling stops.<</fadein>>
+
+ <<fadein 1s 6s>>Believing it to be safe, you step from behind the tomb stone, only to be immediately attacked.<</fadein>>
+
+<<fadein 1s 8s>>[[Ending 3]]<</fadein>>
+
 :: familiar street
 <<if $hasbike>>
-Excited by the familiar sight, you try rushing forward towards the street but you quickly realize that the bike had finally died.
+<<fadein 1s>>Excited by the familiar sight, you try rushing forward towards the street but you quickly realize that the bike had finally died.<</fadein>>
  
-Not wanting to leave the bike within the graveyard, you decide to bring it along with you as you walk the remainder of the way home.
+<<fadein 1s 2s>>Not wanting to leave the bike within the graveyard, you decide to bring it along with you as you walk the remainder of the way home.<</fadein>>
  
-Soon you arrive onto the familiar street but you spot a shadowed figure in the distance.
+<<fadein 1s 4s>>Soon you arrive onto the familiar street but you spot a shadowed figure in the distance.<</fadein>>
  
-Unsure of whether or not it's the creature or a new entity, you hesitate to move forward.
+<<fadein 1s 6s>>Unsure of whether or not it's the creature or a new entity, you hesitate to move forward.<</fadein>>
  
-[[Avoid]]
+<<fadein 1s 8s>>[[Avoid]]<</fadein>>
  
-[[Approach]]
+<<fadein 1s 8s>>[[Approach]]<</fadein>>
  
  <<else>>
  
- Excited by the familiar sight, you rush forward towards the street.
+ <<fadein 1s>>Excited by the familiar sight, you rush forward towards the street.<</fadein>>
  
-Soon you arrive onto the familiar road but you spot a shadowed figure in the distance.
+<<fadein 1s 2s>>Soon you arrive onto the familiar road but you spot a shadowed figure in the distance.<</fadein>>
  
-Unsure of whether or not it's the creature or a new entity, you hesitate to move forward.
+<<fadein 1s 4s>>Unsure of whether or not it's the creature or a new entity, you hesitate to move forward.<</fadein>>
  
-[[Avoid]]
+<<fadein 1s 6s>>[[Avoid]]<</fadein>>
  
-[[Approach]]
+<<fadein 1s 6s>>[[Approach]]<</fadein>>
 <</if>>
  
 :: Avoid
-Ultimately, you decide your best chance at survival is to avoid a confrontation in its entirety.
+<<fadein 1s>>Ultimately, you decide your best chance at survival is to avoid a confrontation in its entirety.<</fadein>>
  
-You slowly maneuver around several obstacles, eventually making it past the shadowed figure without bringing attention to yourself.
+<<fadein 1s 2s>>You slowly maneuver around several obstacles, eventually making it past the shadowed figure without bringing attention to yourself.<</fadein>>
  
 disturbing it.
  
-After a couple of minutes, you arrive within [[your neighborhood]].
+<<fadein 1s 4s>>After a couple of minutes, you arrive within [[your neighborhood]].<</fadein>>
  
 :: Approach
-You slowly approach the shadowy figure with caution.
+<<fadein 1s>>You slowly approach the shadowy figure with caution.<</fadein>>
  
-As you approach, the shadow dissipates into thin air.
+<<fadein 1s 2s>>As you approach, the shadow dissipates into thin air.<</fadein>>
  
-Unsure of what you just witnessed, you decide to forgo the confusion and focus on heading home.
+<<fadein 1s 4s>>Unsure of what you just witnessed, you decide to forgo the confusion and focus on heading home.<</fadein>>
  
-After a couple of minutes, you arrive within [[your neighborhood]].
+<<fadein 1s 6s>>After a couple of minutes, you arrive within [[your neighborhood]].<</fadein>>
  
 :: Ending 3
-As you fade back into consciousness, you find yourself staring at your own body.
+<<fadein 1s>>As you fade back into consciousness, you find yourself staring at your own body.<</fadein>>
  
-Confused, you search the surroundings for clues only to realize the grimm truth of your situation.
+<<fadein 1s 2s>>Confused, you search the surroundings for clues only to realize the grimm truth of your situation.<</fadein>>
  
-You had died and your body was discovered in the street.
+<<fadein 1s 4s>>You had died and your body was discovered in the street.<</fadein>>
  
-Now surrounded by paramedics and police officers, you had no way of denying the reality of the situation.
+<<fadein 1s 6s>>Now surrounded by paramedics and police officers, you had no way of denying the reality of the situation.<</fadein>>
  
-As they roll your body away into the ambulance, you begin to slowly fade out of existence.
+<<fadein 1s 8s>>As they roll your body away into the ambulance, you begin to slowly fade out of existence.<</fadein>>
  
-[[Start]]
+<<fadein 1s 10s>>[[Start]]<</fadein>>
  
 :: Avoid crashing
-At the last second, you decide it's unreasonable to crash into the crowd of people and quickly swerve to avoid them.
+<<fadein 1s>>At the last second, you decide it's unreasonable to crash into the crowd of people and quickly swerve to avoid them.<</fadein>>
  
-As a result, you crash into a nearby light pole and blackout.
+<<fadein 1s>>As a result, you crash into a nearby light pole and blackout.<</fadein>>
  
- [[Ending 3]]
+ <<fadein 1s>>[[Ending 3]]<</fadein>>
  
 :: Walk along the sidewalk
-You decide to walk along the sidewalk to stay within the light of the street lamps.
+<<fadein 1s>>You decide to walk along the sidewalk to stay within the light of the street lamps.<</fadein>>
  
-As you are traveling along the path, you feel a hand on your shoulder.
+<<fadein 1s 2s>>As you are traveling along the path, you feel a hand on your shoulder.<</fadein>>
  
-[[Jump back]]
+<<fadein 1s 4s>>[[Jump back]]<</fadein>>
  
-[[Swing your backpack]]
+<<fadein 1s 4s>>[[Swing your backpack]]<</fadein>>
  
 :: Jump back
- At the sudden touch, you flinch and immediately jump back, away from the unknown individual.
+<<fadein 1s>> At the sudden touch, you flinch and immediately jump back, away from the unknown individual.<</fadein>>
  
- Once in view however, you realize the individual touching your shoulder was a petite woman under-dressed for the cool weather.
+ <<fadein 1s 2s>>Once in view however, you realize the individual touching your shoulder was a petite woman under-dressed for the cool weather.<</fadein>>
  
-After several seconds of silence, the woman begins asking if you have spare food or money that you could offer.
+<<fadein 1s 4s>>After several seconds of silence, the woman begins asking if you have spare food or money that you could offer.<</fadein>>
  
-Before you could answer, you notice other individuals approaching your location.
+<<fadein 1s 6s>>Before you could answer, you notice other individuals approaching your location.<</fadein>>
  
-[[Leave]]
+<<fadein 1s 8s>>[[Leave]]<</fadein>>
  
-[[Search bag]]
+<<fadein 1s 8s>>[[Search bag]]<</fadein>>
  
 :: Leave
  
-You hurriedly dismiss yourself from the women's presence in hopes of avoiding a confrontation.
+<<fadein 1s>>You hurriedly dismiss yourself from the women's presence in hopes of avoiding a confrontation.<</fadein>>
  
-As You begin sprinting towards the [[Graveyard's entrance]], you hear the sounds of the group following you.
+<<fadein 1s 2s>>As You begin sprinting towards the [[Graveyard's entrance]], you hear the sounds of the group following you.<</fadein>>
  
 :: Search bag
-You reach into your bag to find the woman, something you can spare, when you are suddenly grabbed from behind.
+<<fadein 1s>>You reach into your bag to find the woman, something you can spare, when you are suddenly grabbed from behind.<</fadein>>
  
-Before you could react, you are suddenly knocked unconscious by a mystery assailant.
+<<fadein 1s 2s>>Before you could react, you are suddenly knocked unconscious by a mystery assailant.<</fadein>>
  
-[[Ending 3]]
+<<fadein 1s 4s>>[[Ending 3]]<</fadein>>
  
 :: Swing your backpack
  
-Due to the suddenness of the touch, you frantically swing your backpack towards the unknown individual, knocking them to the ground.
+<<fadein 1s>>Due to the suddenness of the touch, you frantically swing your backpack towards the unknown individual, knocking them to the ground.<</fadein>>
  
-Unable to properly comprehend the situation due to the sudden rush of adrenaline, you quickly gather your backpack and attempt to leave the immediate area.
+<<fadein 1s 2s>>Unable to properly comprehend the situation due to the sudden rush of adrenaline, you quickly gather your backpack and attempt to leave the immediate area.<</fadein>>
  
-This however became impossible as more individuals showed up to the scene.
+<<fadein 1s 4s>>This however became impossible as more individuals showed up to the scene.<</fadein>>
  
-Before anything could be explained on your part, what was assumed to be the woman's companions, proceeded to tackle you to the ground, resulting in your head crashing into the hard sidewalk.
+<<fadein 1s 6s>>Before anything could be explained on your part, the woman's companions proceed to tackle you to the ground, resulting in your head crashing into the hard sidewalk.<</fadein>>
  
-[[Ending 3]]
+<<fadein 1s 8s>>[[Ending 3]]<</fadein>>
  
 :: Walk in the street
- You decide it's best to walk in the street to avoid interactions with the people on the sidewalk.
+ <<fadein 1s>>You decide it's best to walk in the street to avoid interactions with the people on the sidewalk.<</fadein>>
  
-After several minutes, you arrive at the [[Graveyard's entrance]].
+<<fadein 1s 2s>>After several minutes, you arrive at the [[Graveyard's entrance]].<</fadein>>
 :: well-lit path
 <<if $hasbike>>
-You make your way towards the well-lit path.
+<<fadein 1s>>You make your way towards the well-lit path.<</fadein>>
  
-As you ride beneath the dull street lights, you quickly take in the surrounding sights.
+<<fadein 1s 2s>>As you ride beneath the dull street lights, you quickly take in the surrounding sights.<</fadein>>
  
-You see a vast amount of students walking along the sidewalk but rather than feel comforted by their presence, you feel frustrated because they are blocking your path.
+<<fadein 1s 4s>>You see a vast amount of students walking along the sidewalk but rather than feel comforted by their presence, you feel frustrated because they are blocking your path.<</fadein>>
  
-Enter the [[bike lane]] to avoid the students.
+<<fadein 1s 6s>>Enter the [[bike lane]] to avoid the students.<</fadein>>
  
-[[Stay on the sidewalk]] and maneuver around the obstacles.
+<<fadein 1s 6s>>[[Stay on the sidewalk]] and maneuver around the obstacles.<</fadein>>
  
  <<else>>
-You make your way towards the well-lit path.
+<<fadein 1s>>You make your way towards the well-lit path.<</fadein>>
  
-As you walk underneath the dull street lights, you take in the noise around you.
+<<fadein 1s 2s>>As you walk underneath the dull street lights, you take in the noise around you.<</fadein>>
  
-The sight of fellow college students walking amongst the streets gives you a sense of comfort and you begin letting your guard down.
+<<fadein 1s 4s>>The sight of fellow college students walking amongst the streets gives you a sense of comfort and you begin letting your guard down.<</fadein>>
  
-You reach into your bag and pull out your phone and headphones.
+<<fadein 1s 6s>>You reach into your bag and pull out your phone and headphones.<</fadein>>
  
-[[Put on headphones]]
+<<fadein 1s 8s>>[[Put on headphones]]<</fadein>>
  
-[[Put away headphones]]
+<<fadein 1s 8s>>[[Put away headphones]]<</fadein>>
 <</if>>
  
 :: bike lane
-You decide to enter the bike lane.
+<<fadein 1s>>You decide to enter the bike lane.<</fadein>>
  
-As you are traveling alongside cars you eventually reach a crosswalk.
+<<fadein 1s 2s>>As you are traveling alongside cars you eventually reach a crosswalk.<</fadein>>
  
-Believing it to be safe, you make your way across the street, only to be struck by a careless driver in the turning lane.
+<<fadein 1s 4s>>Believing it to be safe, you make your way across the street, only to be struck by a careless driver in the turning lane.<</fadein>>
  
-[[Ending 2]]
+<<fadein 1s 6s>>[[Ending 2]]<</fadein>>
  
 :: Stay on sidewalk
  
-You decide to stay on the sidewalk and avoid the students blocking your path.
+<<fadein 1s>>You decide to stay on the sidewalk and avoid the students blocking your path.<</fadein>>
  
-After several long minutes of stop-and-go sidewalk traffic, you eventually arrive at a crosswalk and safely cross with other students.
+<<fadein 1s 2s>>After several long minutes of stop-and-go sidewalk traffic, you eventually arrive at a crosswalk and safely cross with other students.<</fadein>>
  
-Once across, you head towards a [[busy intersection]].
+<<fadein 1s 4s>>Once across, you head towards a [[busy intersection]].<</fadein>>
  
  
 :: Put on headphones
-You decide to wear your headphones and listen to music to pass the time.
+<<fadein 1s>>You decide to wear your headphones and listen to music to pass the time.<</fadein>>
  
-As you reach the crosswalk and begin crossing, you fail to hear a car approaching and are struck.
+<<fadein 1s 2s>>As you reach the crosswalk and begin crossing, you fail to hear a car approaching and are struck.<</fadein>>
  
-[[Ending 2]]
+<<fadein 1s 4s>>[[Ending 2]]<</fadein>>
  
 :: Ending 2
-Unsure of what happened, you slowly fade in and out of consciousness.
+<<fadein 1s>>Unsure of what happened, you slowly fade in and out of consciousness.<</fadein>>
  
-You hear what you assume to be sirens as you fade out for the last time.
- [[Start]]
+<<fadein 1s 2s>>You hear what you assume to be sirens as you fade out for the last time.<</fadein>>
+ <<fadein 1s 4s>>[[Start]]<</fadein>>
  
 :: Put away headphones
-You decide that it's best not to wear headphones and place them back into your bag.
+<<fadein 1s>>You decide that it's best not to wear headphones and place them back into your bag.<</fadein>>
  
-You continue down the street fully aware of the dangers surrounding you.
+<<fadein 1s 2s>>You continue down the street fully aware of the dangers surrounding you.<</fadein>>
  
-You eventually arrive at a crosswalk and safely make your way across.
+<<fadein 1s 4s>>You eventually arrive at a crosswalk and safely make your way across.<</fadein>>
  
-Once across, you head towards a [[busy intersection]].
+<<fadein 1s 6s>>Once across, you head towards a [[busy intersection]].<</fadein>>
