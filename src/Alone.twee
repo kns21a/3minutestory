@@ -5,6 +5,9 @@
     "format-version": "2.36.1"
 }
 
+:: StoryInit
+<<set $hasbike to false>>
+
 :: StoryTitle
 Alone
 
@@ -13,30 +16,30 @@ It's late at night and you're ready to head home to sleep.
 As you exit the university's library, you feel a sudden chill run down your spine from the frigid fall air. 
 You had failed to dress for the weather so you are eager to get home. You quickly descend the library's stairs and proceed down the sidewalk towards the edge of campus.
 
-At the last second, you recall that you had parked your scooter at the library's [[bike rack]] and turn around.
+At the last second, you recall that you had parked your bike at the library's [[bike rack]] and turn around.
 
 You proceed to walk towards the [[edge of campus]].
 
 :: bike rack
-You arrive at the bike rack and discover your scooter still locked up where you left it hours prior.
+You arrive at the bike rack and discover your bike still locked up where you left it hours prior.
 
 Upon closer inspection, you realize the battery is almost dead.
 
-Battery: 3/5
 
-[[Abandon scooter]]
 
-[[Take scooter]]
+[[Abandon bike]]
 
-:: Abandon scooter
- You decide to leave the scooter behind rather than risk it dying during the trip. 
+[[Take bike]]
+
+:: Abandon bike
+ You decide to leave the bike behind rather than risk it dying during the trip. 
  You ensure the lock is still in place and make your way towards the [[edge of campus]].
 
 
-:: Take scooter
-Despite its dying battery, you decide to use the scooter in hopes of getting home faster. You proceed to unlock the scooter and ride it towards the [[edge of campus]].
+:: Take bike
+<<set $hasbike to true>>
+Despite its dying battery, you decide to use the bike in hopes of getting home faster. You proceed to unlock the bike and ride it towards the [[edge of campus]].
 
-Battery: 3/6
 
 :: edge of campus 
 You arrive at the edge of campus and come across a divided path. 
@@ -52,19 +55,95 @@ You can clearly see people walking along the sidewalk.
 You make your way towards the secluded path. 
 
 As you walk, you bask in the peacefulness of the neighborhood. The cool air of the fall night tempts you to slow down.
+<<if $hasbike>>
+[[Keep pace]]
+[[Turn off bike]]
+<<else>>
+[[Keep pace]]
+[[Slow down]]
+ <</if>>
 
-[[slow down]]
+:: Turn off bike
+You slow down and turn off your bike.
+You decide to walk and enjoy the cool breeze for awhile, but as you make your way through the neighborhood, you are suddenly startled by a sudden noise.
 
-[[keep pace]]
+[[Investigate]]
+[[Get on bike]]
+
+:: Investigate
+You turn on your bike's headlight to search the area.
+
+After several seconds of looking around, you notice the noise is coming from a nearby bush.
+As you approach the bush a large mass leaps out and begins growling at you.
+
+[[Run]]
+[[Confront creature]]
+
+:: Confront creature
+<<fadein 1s>>As the creature gradually approaches you, you quickly place your bike frame between it and yourself. <</fadein>>
+
+<<fadein 1s 2s>>The creature trys to manuever around the metal frame; however, you swifly adjust the bike's position to defend your body.<</fadein>>
+
+<<fadein 1s 4s>>After several tense minutes, you realise that the creature is becoming increasingly aggitated with the stalemate, and appears ready to charge you head-on.<</fadein>>
+
+<<fadein 1s 6s>>Before it can act, you make a quick descision.<</fadein>>
+
+<<fadein 1s 14s>>[[Toss bike]]<</fadein>>
+<<fadein 1s 11s>>[[Get on bike]]<</fadein>>
+<<fadein 1s 9s>>[[Flash headlight]]<</fadein>>
+<<fadein 1s 6s>> [[Do nothing]] <</fadein>>
+
+:: Toss bike
+<<set $havebike to false>>
+You toss your bike towards the creature, effectively pinning it to the ground.
+Without hesitation, you beging running down the street towards the [[edge of the neighborhood]].
+
+:: Ride bike
+You quickly hop on to the bike and and twist the throttle.
+
+The creature, seeing that you've let your gaurd down, immediately latches onto to your leg with its jaged teeth.
+
+Despite the intense pain, you recklessly speed through the street hoping to shake off the creature from your mangled leg.
+
+with the creature still attached, you eventually arrive at the [[edge of the neighborhhod]].
+
+:: Flash headlight
+In a panic, you flash the creature with the headlight revealing its grotesque, pail white form.
+
+Petrified by its appearance, you fail to react in time to escape. 
+
+With the creature now approaching you, you drop the bike and begin recklessly sprinting off into the distance. 
+
+Shorlty after, you trip on uneven ground, painfully twisting your ankle.
+
+[[Ending 1]]
+
+:: Do nothing 
+
+Too petrified to react, you fail to take any action against the creature infront of you.
+
+The creature lunges towards you, effectively pinning you into the ground.
+
+After a short struggle, with the creature overpowering you, you manage to squeeze free from its grasp; however, your freedom was short lived.
+
+During your escape you failed to the uneven sidewalk and tripped, severly twisting your ankle.
+
+[[Ending 1]]
+
+:: Get on bike 
+
+You quickly mount your bike and turn on the power.
+
+As you begin twisting the throttle you hear the growling intensify.
+
+Not wanting to wait around to find out the identity of the source, you quickly speed off towards the [[edge of the neighborhood]].
 
 :: slow down
 You decide to slow your pace and relish in the quiet darkness. 
 Your peaceful walk is suddenly interrupted by a rustling noise to the right of you.
 
 [[Check the source of the noise]]
-
 [[Run]]
-
 [[Slowly walk away]]
 
 :: Check the source of the noise
@@ -85,21 +164,28 @@ Still tense from fear, you quickly gather your composure and head towards the [[
 
 :: Run
 You quickly sprint away, leaving little time to register what you heard.
+
 In the corner of your eye you see a large mass quickly approaching you.
+
 At the sight of this, you panic and trip, injuring your ankle.
 
 [[Ending 1]]
 
 :: Ending 1
-As you lay there petrified with fear, unable to move, the shadowy mass catches up to you. 
-The mass lunges onto you, revealing its teeth before sinking them into your throat.
+As you lay there petrified with fear, unable to move, the creature catches up to you. 
+
+It lunges onto you, revealing its teeth before sinking them into your throat.
+
 In this moment, all you are left with is the  intense pain and fear of your inevitable demise.
+
+[[Start]]
 
 :: Slowly walk away
 Not wanting to find the source of the noise, you slowly back away until you are a safe distance away to regather your composure.
-Once you calmed down, you proceed towards [[the edge of the neighborhood]].
 
-:: keep pace
+Once you calmed down, you proceed towards [[edge of the neighborhood]].
+
+:: Keep pace
 
     You shake off the urge to slow down and proceed forward as normal.
 
@@ -107,26 +193,33 @@ After several minutes, you arrive at the [[edge of the neighborhood]].
 
 :: edge of the neighborhood 
 As you exit the neighborhood, you are welcomed with warm lights overhead.
+
 You take in the surroundings and realize you are on an unfamiliar street. 
+
 Thinking back you must have missed a turn within the neighborhood. 
 
-[[turn around]]
+[[Turn around]]
 
-[[search for a new path]]
+[[Search for a new path]]
 
-:: turn around
+:: Turn around
 Not wanting to risk getting lost, you turn around and reenter the neighborhood.
+
 As you retrace your path you come across a divide path.
 
-:: search for a new path
+:: Search for a new path
 Not wanting to waste anymore time, you grab your phone and look at the map.
+
 According to your phone, if you head north you will arrive at a relatively familiar area.
 
 :: well-lit path
 
 You make your way towards the well-lit path.
-As you walk underneath the dull street lights, you take in the sights around you.
+
+As you walk underneath the dull street lights, you take in the noise around you.
+
 The sight of fellow college students walking amongst the streets gives you a sense of comfort and you begin letting your guard down. 
+
 You reach into your bag and pull out your phone and headphones.
 
 [[Put on headphones]]
