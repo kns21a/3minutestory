@@ -51,14 +51,14 @@ Alone
 <<fadein 1s 5s>>You can clearly see people walking along the sidewalk.<</fadein>>
  
 :: secluded path
- 
+ <<if $hasbike>>
 <<fadein 1s>>You make your way towards the secluded path.<</fadein>>
- 
-<<fadein 1s 2s>>As you walk, you bask in the peacefulness of the neighborhood. The cool air of the fall night tempts you to slow down.<</fadein>>
-<<if $hasbike>>
+<<fadein 1s 2s>>As you ride your bike, you bask in the peacefulness of the neighborhood. The cool air of the fall night tempts you to slow down.<</fadein>>
 <<fadein 1s 4s>>[[Keep pace]]<</fadein>>
 <<fadein 1s 4s>>[[Turn off bike]]<</fadein>>
 <<else>>
+<<fadein 1s>>You make your way towards the secluded path.<</fadein>>
+<<fadein 1s 2s>>As you walk, you bask in the peacefulness of the neighborhood. The cool air of the fall night tempts you to slow down.<</fadein>>
 <<fadein 1s 4s>>[[Keep pace]]<</fadein>>
 <<fadein 1s 4s>>[[Slow down]]<</fadein>>
  <</if>>
@@ -76,7 +76,7 @@ Alone
  
 <<fadein 1s 2s>>After several seconds of looking around, you notice the noise is coming from a nearby bush.<</fadein>>
  
-<<fadein 1s 4s>>As you approach the bush a large creature leaps out and begins growling at you.<</fadein>>
+<<fadein 1s 4s>>As you approach the bush, a large creature leaps out and begins growling at you.<</fadein>>
  
 <<fadein 1s 6s>>[[Run]]<</fadein>>
 <<fadein 1s 6s>>[[Confront creature]]<</fadein>>
@@ -102,6 +102,7 @@ Alone
 <<fadein 1s 2s>>Without hesitation, you begin running down the street towards the [[edge of the neighborhood]].<</fadein>>
  
 :: Ride bike
+<<set $havebike to true>>
 <<set $hasblood to true>>
 <<fadein 1s>>You quickly hop on to the bike and twist the throttle.<</fadein>>
  
@@ -243,7 +244,7 @@ Alone
 <<fadein 1s 6s>>[[Enter closed road]]<</fadein>>
 <<fadein 1s 6s>>Backtrack to the [[residential area]].<</fadein>>
 <</if>>
-:: Leave bike
+:: Leave bike behind
 <<fadein 1s>>You decide to lock your bike up on a nearby tree in hopes of finding it later.<</fadein>>
  
 <<fadein 1s 2s>>You [[Enter closed road]]<</fadein>>
@@ -581,7 +582,7 @@ disturbing it.
  
 <<fadein 1s 6s>>[[Ending 2]]<</fadein>>
  
-:: Stay on sidewalk
+:: Stay on the sidewalk
  
 <<fadein 1s>>You decide to stay on the sidewalk and avoid the students blocking your path.<</fadein>>
  
